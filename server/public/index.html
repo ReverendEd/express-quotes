@@ -11,14 +11,26 @@
     <script src="scripts/client.js"></script>
 </head>
 <body>
-    <p>html is working</p>
     <button id="quotesbutton">Get Quotes</button>
-    <button id="submitquote">Submit Quotes</button>
     <button id="randomquote">Random Quote</button>
     <div>
-        <ul id="forquotes">
-
-        </ul>
+        <input id="inputIDquote" type="text" placeholder="Quote">
+        <input id="inputIDauthor" type="text" placeholder="Author">
+        <input id="inputIDpicture" type="text" placeholder="Picture URL">
+        <button id="buttonIDsubmitquote">Submit Quote</button>
+    </div>
+    <div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Quote</th>
+                    <th>Name</th>
+                    <th>Picture</th>
+                </tr>
+            </thead>
+            <tbody id="forquotes">
+            </tbody>
+        </table>
     </div>
 </body>
 </html>
